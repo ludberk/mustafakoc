@@ -1,0 +1,19 @@
+/* colors */
+
+:root {
+    --primary: rgba(0,0,0,0.4);
+    --second: #fff;
+    --danger: crimson;
+    --success: #6cc070;
+}
+/* size  */
+:root {
+    --main-padding: 6rem;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}

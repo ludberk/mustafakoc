@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/contact.css">
+</head>
+<body>
+    <!-- navigation menu start -->
+    <nav class="navigation_menu">
+        <div class="wrapper">
+          <div class="logo"><a href="#">Mustafa Koç</a></div>
+          <input type="radio" name="slider" id="menu-btn">
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><ion-icon name="apps-outline"></ion-icon></label>
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Hakkımda</a></li>
+            <li>
+              <a href="#" class="desktop-item">Dergiler</a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+              <ul class="drop-menu">
+                <li><a href="#">Drop menu 1</a></li>
+                <li><a href="#">Drop menu 2</a></li>
+                <li><a href="#">Drop menu 3</a></li>
+                <li><a href="#">Drop menu 4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Mega Menu</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Mega Menu</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <img src="https://fadzrinmadu.github.io/hosted-assets/responsive-mega-menu-and-dropdown-menu-using-only-html-and-css/img.jpg" alt="">
+                  </div>
+                  <div class="row">
+                    <header>Design Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Graphics</a></li>
+                      <li><a href="#">Vectors</a></li>
+                      <li><a href="#">Business cards</a></li>
+                      <li><a href="#">Custom logo</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Email Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Personal Email</a></li>
+                      <li><a href="#">Business Email</a></li>
+                      <li><a href="#">Mobile Email</a></li>
+                      <li><a href="#">Web Marketing</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Security services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Site Seal</a></li>
+                      <li><a href="#">VPS Hosting</a></li>
+                      <li><a href="#">Privacy Seal</a></li>
+                      <li><a href="#">Website design</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+          <label for="menu-btn" class="btn menu-btn"><ion-icon name="apps-outline"></ion-icon></label>
+        </div>
+      </nav>
+    <!-- navigation menu end  -->
+    <div class="body">
+        <div class="contact-info">
+            <div class="card">
+                <ion-icon name="mail"></ion-icon>
+              <div class="card-content">
+                <h3>Email</h3>
+                <span>email@address.com</span>
+              </div>
+            </div>
+          
+            <div class="card">
+                <ion-icon name="call"></ion-icon>
+              <div class="card-content">
+                <h3>Phone Number</h3>
+                <span>+00000000000</span>
+              </div>
+            </div>
+          
+            <div class="card">
+                <ion-icon name="location"></ion-icon>
+              <div class="card-content">
+                <h3>Location</h3>
+                <span>United States</span>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- ion icon  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

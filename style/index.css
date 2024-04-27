@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import './style/base.css';
+.body{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  background: url('../image/intro-desktop.jpg');
+}
+
+
+.content-container{
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-text-container{
+  width: 45%;
+  color: #111 !important;
+}
+
+.portfolio-image-container{
+  width: 50%;
+  border: 2px solid var(--second);
+}
+
+.portfolio-image-container img{
+  width: 100%;
+}
+
+.portfolio-text-container h1{
+  text-transform: uppercase;
+  padding: 10px 0px;
+  font-size: 46px;
+  line-height: 1.1em;
+}
+
+.portfolio-text-container h3{
+  text-transform: uppercase;
+  padding: 0px 0px;
+  font-size: 32px;
+  color: #2F4858;
+}
+
+.portfolio-text-container p{
+  padding: 10px 0px;
+  text-align: justify;
+  font-weight: 600;
+  color: #2F4858;
+}
+
+.social-media-container > ion-icon{
+  margin-top: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  color: #2F4858;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.social-media-container > ion-icon:hover{
+  transform: translateY(-3px);
+}
+
+@media screen and (max-width: 1050px) {
+  .content-container{
+    width: 94%
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+  .portfolio-text-container,
+  .portfolio-image-container{
+    width: 100%;
+  }
+  .content-container{
+    flex-direction: column-reverse;
+    margin-bottom: 40px;
+  }
+  .menu-btn-container{
+    display: block;
+  }
+
+
+  #menu-btn{
+    cursor: pointer;
+    font-size: 40px;
+    color: #EAFFDA !important
+  }
+
+}
