@@ -1,62 +1,33 @@
 @import './style/base.css';
 
-.about-us{
-    min-height: 100vh;
-    width: 100%;
-    padding: 90px 0;
-    background: #ddd;
-  }
-  .about img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-  }
-  .pic{
-    height: auto;
-    width:  302px;
-  }
-  .about{
-    width: 1130px;
-    max-width: 85%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-  }
-  .text{
-    width: 540px;
-  }
-  .text h2{
-    font-size: 90px;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-  .text h5{
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 20px;
-  }
-  span{
-    color: #4070f4;
-  }
-  .text p{
-    font-size: 1rem;
-    line-height: 25px;
-    letter-spacing: 1px;
-  }
-  .data{
-    margin-top: 30px;
-  }
-  .hire{
-    font-size: 18px;
-    background: #4070f4;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    padding: 8px 25px;
-    border-radius: 6px;
-    transition: 0.5s;
-  }
-  .hire:hover{
-    background: #000;
-    border: 1px solid #4070f4;
-  }
+.about {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: url("../image/texture-1.png");
+  background-size: cover;
+  background-position: center;
+
+}
+.content {
+  position: relative;
+  top: 7vh;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  min-height: 100vh;
+  margin: 20px;
+}
+.content .image {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+}
+.content .image img {
+  width: 250px;
+}
+.content .text {
+  margin: 10px;
+}

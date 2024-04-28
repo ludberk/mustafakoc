@@ -1,0 +1,49 @@
+.body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body {
+
+    background-image: url("../image/texture-3.jpg");
+}
+.content {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image img {
+    width: 100%;
+    max-width: 430px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contain {
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--second);
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contain h1 {
+    margin: 20px;
+}
+.contain .text {
+    margin: 10px;
+}
+.link {
+    margin: 3rem;
+}
+.link ul li a {
+    padding: 10px;
+    margin: 10px;
+    color: #222;
+    font-weight: bold;
+}

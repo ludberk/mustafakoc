@@ -1,4 +1,4 @@
-  .body {
+.body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@ body {
   justify-content: center;
   align-items: flex-end;
   width: 450px; 
-  height: 350px;
+  height: 650px;
   margin: 1rem;
   background-position: center;
   box-shadow: 2px 8px 6px #1b1b1b;
@@ -36,7 +36,7 @@ body {
   position: absolute;
   width:  100%;
   top: 35rem;
-  height: 35%;
+  height: 20%;
   color: var(--primary);
   text-align: center;
   background: transparent;
@@ -45,22 +45,13 @@ body {
 }
 
 .container .card{
-  top: 14.2rem;
+  top: 33rem;
   
 } 
 
 .text{
   font-size: 25px;
   transition: all .5s ease;
-}
-.container .button{
-  position: relative;
-  padding: .5rem;
-  background: var(--primary);
-  border: none;
-  color: var(--second);
-  top: 10px;
-  cursor: pointer;
 }
 
 

@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @import './base.css';
 
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none; 
+}
 /* navigation menu start  */
 nav.navigation_menu{
   position: fixed;
